@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/lovelo?styles=25962');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'lovelo', sans-serif;
+}
+
+.menu-container{
+    background: #373737;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 8px 50px;
+}
+
+.menu-links{
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+li{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    gap: 16px;
+    list-style-type: none;
+    
+}
+
+
+
