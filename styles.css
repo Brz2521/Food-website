@@ -41,10 +41,40 @@ ul{
     display: flex;
     margin: 0;
     padding: 0 100px;
-    gap: 16px;
+    gap: 30px;
     list-style-type: none;
     
 }
+
+.photo-grid-container{
+    background-color: #f6eee4;
+    height: 630px;
+    width: 1903px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.photo-grid-item img{
+    width: 375px;
+    height: 530px;
+
+}
+
+.first-item{
+    order: -1;
+}
+
+
+
 
 
 
