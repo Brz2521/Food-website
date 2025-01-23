@@ -50,8 +50,13 @@ ul{
     background-color: #f6eee4;
     height: 630px;
     width: 1903px;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
+    
+    display: grid;
+    grid-template-columns: 1fr; /* 1 fraction total available space of the column in the grid*/
+    grid-template-rows: 1fr;
+    place-items: center;
 }
 
 .photo-grid{
@@ -61,6 +66,24 @@ ul{
     flex-direction: row;
     align-items: center;
     gap: 30px;
+
+}
+
+.photo-grid-container .latest-banner{
+    grid-row: 1 / 1.5; /*1 is the start of the grid area and 1.5 will be the end of it - same can be for grid row and grid column - The item is in the 2nd cell in the row of the grid*/
+    grid-column: 1 / 1.5;
+    place-self: center;
+}
+
+.photo-grid-container .latest-banner img{
+    width: 850px;
+}
+
+.photo-grid-container .photo-grid{
+    grid-row: 1 / 1; 
+    grid-column: 1 / 1;
+    place-self: center;
+
 }
 
 .photo-grid-item img{
@@ -68,6 +91,13 @@ ul{
     height: 530px;
 
 }
+
+/*.photo-grid-item:nth-of-type(1){
+    width: 100px;
+    height: 200px;
+}*/
+
+
 
 .first-item{
     order: -1;
