@@ -8,6 +8,7 @@
 
 body{
     font-family: 'lovelo', sans-serif;
+    text-align: center;
 }
 
 .menu-container{
@@ -103,6 +104,34 @@ ul{
     order: -1;
 }
 
+.photo-grid2-container{
+    background-color: #f7f8f8;
+
+}
+
+
+.photo-grid2-container .photo-grid2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    gap: 100px;
+}
+
+.photo-grid2-item{
+    max-width: 200px;
+}
+
+.photo-grid2-item:hover{
+    cursor: pointer;
+}
+
+.photo-grid2 .photo-grid2-item img{
+    height: 130px;
+    width: 130px;
+}
 
 
 
