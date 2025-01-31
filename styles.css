@@ -124,6 +124,11 @@ ul{
     max-width: 200px;
 }
 
+.photo-grid2-item .text{
+    font-size: 20px;
+    color: #648d69;
+}
+
 .photo-grid2-item:hover{
     cursor: pointer;
 }
@@ -132,6 +137,8 @@ ul{
     height: 130px;
     width: 130px;
 }
+
+
 
 
 
