@@ -138,6 +138,25 @@ ul{
     width: 130px;
 }
 
+.recipes-container{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.recipes-container .recipes{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 170px;
+}
+
+.recipes-container .recipes .recipe-item1 .header{
+    font-size: 22px;
+    font-weight: 520;
+}
+
+
+
+
 
 
 
