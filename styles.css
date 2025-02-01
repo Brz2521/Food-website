@@ -116,7 +116,7 @@ ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 200px;
+    margin: 100px;
     gap: 100px;
 }
 
@@ -138,19 +138,27 @@ ul{
     width: 130px;
 }
 
-.recipes-container{
-    font-family: 'Times New Roman', Times, serif;
+.recipe-container{ 
+    margin: 100px;
+    height: 800px;
+    width: 800px;
 }
 
-.recipes-container .recipes{
+.recipe-container .recipes{
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: row;
-    height: 250px;
-    width: 170px;
+    height: 200px;
+    width: 500px;
 }
 
-.recipes-container .recipes .recipe-item1 .header{
-    font-size: 22px;
+.recipe-container .recipes .recipe-item1{
+    background-color: #f6eee4;
+    padding: 16px;
+}
+
+.recipe-container .recipes .recipe-item1 .header{
+    font-size: 19px;
     font-weight: 520;
 }
 
