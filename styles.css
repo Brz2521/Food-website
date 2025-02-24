@@ -140,29 +140,32 @@ ul{
 
 /*Recipe cards*/
 .recipe-container{ 
-    border: 2px solid black;
     display: flex;
-    gap: 16px;
     font-family: 'Times New Roman', Times, serif;
     color: #373737;
-    margin: 100px;
-    height: 800px;
+    gap: 60px;
+    margin: 50px 300px;
+
+    /*height: 546px;
+    width: 1284px;*/
 
 }
 
 .recipes-1-2{
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 45px;
 }
 
 
 .recipe-container .recipes-1-2 .recipe-card-1{
-    border: 1px solid black;
-    flex: 1;
     display: flex;
     height: 200px;
     width: 500px;
+}
+
+.recipe-card-1 img{
+    height: 200px;
 }
 
 .recipe-card-1 .recipe-info{
@@ -181,6 +184,11 @@ ul{
     width: 500px;
 }
 
+.recipe-card-2 img{
+    height: 200px;
+
+}
+
 .recipe-container .recipe-card-2 .header{
     font-size: 19px;
     font-weight: 600;
@@ -192,13 +200,6 @@ ul{
     padding: 25px;
     align-items: center;
 }
-
-.card{
-    border: 2px solid red;
-    display: flex;
-}
-
-
 
 .recipe-container .recipe-card-3{
     display: flex;
@@ -222,13 +223,25 @@ ul{
     font-size: 13px;
 }
 
-.recipe-container .recipe-card-4{
+.recipe-cards-4-5{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.recipe-card-4{
     display: flex;
     height: 250px;
     width: 500px;
 }
 
-.recipe-container .recipe-card-4 .recipe-info{
+.recipe-card-4 img{
+    height: 250px;
+    width: 300px;
+}
+
+.recipe-card-4 .recipe-info{
     color: #fff;
     background-color: #99a290;
     align-items: center;
@@ -236,25 +249,25 @@ ul{
     padding: 10px;
 }
 
-.recipe-container .recipe-card-4 .recipe-info .header{
+.recipe-card-4 .recipe-info .header{
     font-size: 19px;
     font-weight: 600;
 }
 
-.recipe-container .recipe-card-4 .recipe-info .text{
+.recipe-card-4 .recipe-info .text{
     font-size: 13px;
 }
 
-.recipe-container .top-recipes-card{
+.top-recipes-card{
     height: 280px;
     width: 300px;
-    border: 1px solid #373737;
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 
 }
 
-.recipe-container .top-recipes-card img{
+.top-recipes-card img{
     width: 120%;
 }
 
